@@ -1,0 +1,21 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "pull": "node request.js",
+    "convert": "node convert.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "file-type": "^15.0.1",
+    "jpexs-flash-decompiler": "0.0.4",
+    "node-fetch": "^2.6.1",
+    "pdfkit": "^0.11.0",
+    "swf-reader": "^1.0.0"
+  }
+}

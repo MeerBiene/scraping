@@ -1,0 +1,11 @@
+*.swf
+*.png
+*.log
+
+.vsc
+
+node_modules
+
+config.*
+
+*.pdf
